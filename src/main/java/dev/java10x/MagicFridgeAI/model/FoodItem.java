@@ -15,9 +15,18 @@ public class FoodItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(name = "name", nullable = false)
     private String name;
+
+    @Column(name = "category", nullable = false)
+    @Enumerated(EnumType.STRING)
     private Category category;
+
+    @Column(name = "amount", nullable = false)
     private Integer amount;
+
+    @Column(name = "validity", nullable = false)
     private LocalDate validity;
 
     public Long getId() {

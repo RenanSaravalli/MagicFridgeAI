@@ -22,6 +22,8 @@ target/
 /home/renan/java/batismoJava/MagicFridgeAI/estudo
 estudo
 /estudo
+.env
+/data/
 
 ### NetBeans ###
 /nbproject/private/
