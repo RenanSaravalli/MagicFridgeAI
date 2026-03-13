@@ -6,6 +6,7 @@ public enum Category {
     MEAT,
     FISH_SEAFOOD,
     DAIRY,
+    GRAIN,
     GRAIN_CEREAL,
     LEGUME,
     BEVERAGE,
